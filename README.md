@@ -39,25 +39,26 @@ An end-to-end, modular AI system built using **LangGraph Supervisor**. Instead o
    git clone https://github.com/11snigdha11/Multi-Agent-Stock-Recommendation-using-MCP
    cd STOCK RECOMMENDER
 
-2.**Install Dependencies:**
+2. **Install Dependencies:**
 Make sure you have Python installed, then run:
 
-Bash
+```bash
    pip install -r requirements.txt
+
 (Note: Ensure you have langchain, langgraph, langchain-mcp-adapters, langchain-openai, and python-dotenv installed).
 
-3.**Environment Variables:**
-Create a .env file in the root directory and add your API keys:
+3. **Environment Variables:**
+* Create a .env file in the root directory and add your API keys:
 
-Code snippet
-   OPENAI_API_KEY=your_openai_api_key_here
-   BRIGHT_DATA_API_TOKEN=your_bright_data_token_here
-   # Optional depending on your Bright Data setup:
-   BRIGHT_DATA_WEB_UNLOCKER_ZONE=your_zone_here 
+```bash
+   * OPENAI_API_KEY=your_openai_api_key_here
+   * BRIGHT_DATA_API_TOKEN=your_bright_data_token_here
+   * (Optional depending on your Bright Data setup:)
+   * BRIGHT_DATA_WEB_UNLOCKER_ZONE=your_zone_here 
 4.**Usage:**
-To run the multi-agent stock recommendation system, execute the main Python file:
+* To run the multi-agent stock recommendation system, execute the main Python file:
 
-Bash
+```bash
 python main.py
 **Example Query handled by the system:**
 
